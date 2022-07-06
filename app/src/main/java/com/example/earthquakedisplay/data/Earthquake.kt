@@ -1,4 +1,4 @@
-package com.example.sidetakehomeassignment.data
+package com.example.earthquakedisplay.data
 
 data class Earthquake(
     val datetime: String,

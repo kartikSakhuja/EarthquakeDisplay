@@ -1,13 +1,12 @@
-package com.example.sidetakehomeassignment
+package com.example.earthquakedisplay
 
-import android.net.wifi.WifiManager
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.*
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
-import com.example.sidetakehomeassignment.ui.MainActivity
+import com.example.earthquakedisplay.ui.MainActivity
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

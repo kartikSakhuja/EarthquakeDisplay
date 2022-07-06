@@ -1,7 +1,7 @@
-package com.example.sidetakehomeassignment.util
+package com.example.earthquakedisplay.util
 
-import com.example.sidetakehomeassignment.data.RetrofitService
-import com.example.sidetakehomeassignment.domain.MainRepository
+import com.example.earthquakedisplay.data.RetrofitService
+import com.example.earthquakedisplay.domain.MainRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -11,6 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 private const val BASE_URL = "http://api.geonames.org"
+
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {

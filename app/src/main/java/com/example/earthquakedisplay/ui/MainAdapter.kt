@@ -1,11 +1,11 @@
-package com.example.sidetakehomeassignment
+package com.example.earthquakedisplay.ui
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.sidetakehomeassignment.data.Earthquake
-import com.example.sidetakehomeassignment.databinding.AdapterEarthquakeBinding
+import com.example.earthquakedisplay.data.Earthquake
+import com.example.earthquakedisplay.databinding.AdapterEarthquakeBinding
 
 class MainAdapter: RecyclerView.Adapter<MainViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.example.sidetakehomeassignment.ui
+package com.example.earthquakedisplay.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,14 +8,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.sidetakehomeassignment.*
-import com.example.sidetakehomeassignment.databinding.ActivityMainBinding
-import com.example.sidetakehomeassignment.domain.MainRepository
-import com.example.sidetakehomeassignment.domain.MainViewModel
-import com.example.sidetakehomeassignment.domain.MyViewModelFactory
-import com.example.sidetakehomeassignment.util.AppModule
-import com.example.sidetakehomeassignment.util.OnItemClickListener
-import com.example.sidetakehomeassignment.util.addOnItemClickListener
+import com.example.earthquakedisplay.databinding.ActivityMainBinding
+import com.example.earthquakedisplay.domain.MainRepository
+import com.example.earthquakedisplay.domain.MainViewModel
+import com.example.earthquakedisplay.domain.MyViewModelFactory
+import com.example.earthquakedisplay.util.AppModule
+import com.example.earthquakedisplay.util.OnItemClickListener
+import com.example.earthquakedisplay.util.addOnItemClickListener
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

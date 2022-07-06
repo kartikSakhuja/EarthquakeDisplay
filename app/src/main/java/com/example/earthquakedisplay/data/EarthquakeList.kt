@@ -1,4 +1,4 @@
-package com.example.sidetakehomeassignment.data
+package com.example.earthquakedisplay.data
 
 import com.google.gson.annotations.SerializedName
 

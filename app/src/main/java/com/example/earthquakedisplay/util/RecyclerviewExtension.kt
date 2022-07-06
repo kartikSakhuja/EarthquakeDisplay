@@ -1,4 +1,4 @@
-package com.example.sidetakehomeassignment.util
+package com.example.earthquakedisplay.util
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

@@ -1,9 +1,9 @@
-package com.example.sidetakehomeassignment.domain
+package com.example.earthquakedisplay.domain
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.sidetakehomeassignment.data.EarthquakeList
+import com.example.earthquakedisplay.data.EarthquakeList
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

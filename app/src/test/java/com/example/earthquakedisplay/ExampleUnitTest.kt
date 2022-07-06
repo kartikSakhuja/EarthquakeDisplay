@@ -1,4 +1,4 @@
-package com.example.sidetakehomeassignment
+package com.example.earthquakedisplay
 
 import org.junit.Test
 

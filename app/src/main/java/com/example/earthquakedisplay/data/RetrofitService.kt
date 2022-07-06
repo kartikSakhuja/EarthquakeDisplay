@@ -1,4 +1,4 @@
-package com.example.sidetakehomeassignment.data
+package com.example.earthquakedisplay.data
 
 import retrofit2.Response
 import retrofit2.http.GET

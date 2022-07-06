@@ -1,4 +1,4 @@
-package com.example.sidetakehomeassignment
+package com.example.earthquakedisplay
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

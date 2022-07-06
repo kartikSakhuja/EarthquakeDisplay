@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.sidetakehomeassignment">
+    package="com.example.earthquakedisplay">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,12 +17,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".ui.GoogleMapsActivity"
+            android:name="com.example.earthquakedisplay.ui.GoogleMapsActivity"
             android:exported="false"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.example.earthquakedisplay.ui.MainActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="true">

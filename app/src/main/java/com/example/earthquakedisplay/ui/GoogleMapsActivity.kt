@@ -1,10 +1,10 @@
 package com.example.earthquakedisplay.ui
 
-import android.location.Address
-import android.location.Geocoder
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.earthquakedisplay.R
+import com.example.earthquakedisplay.databinding.ActivityGoogleMapsBinding
+import com.example.earthquakedisplay.databinding.ActivityMainBinding
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -12,8 +12,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import dagger.hilt.android.AndroidEntryPoint
-import java.util.*
-
+import java.lang.Exception
 
 @AndroidEntryPoint
 class GoogleMapsActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -22,17 +21,28 @@ class GoogleMapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private var lat : String? = null
     private var lng : String? = null
 
+    private lateinit var binding: ActivityGoogleMapsBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_google_maps)
+
+        binding = ActivityGoogleMapsBinding.inflate(layoutInflater)
+
+        setContentView(binding.root)
 
         val intent = intent
-        lat = intent.extras?.getString("Latitude")
-        lng = intent.extras?.getString("Longitude")
 
-        val mapFragment = supportFragmentManager
-            .findFragmentById(R.id.map) as SupportMapFragment?
-        mapFragment!!.getMapAsync(this)
+        try {
+            if (intent != null) {
+                lat = intent.extras?.getString("Latitude")
+                lng = intent.extras?.getString("Longitude")
+            }
+        }catch (e : Exception) {
+            e.printStackTrace()
+        }
+
+        val mapFragment = supportFragmentManager.findFragmentById(R.id.mapFragment) as SupportMapFragment
+        mapFragment.getMapAsync(this)
 
     }
 

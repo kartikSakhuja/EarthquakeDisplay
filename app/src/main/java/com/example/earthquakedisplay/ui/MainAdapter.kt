@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.earthquakedisplay.R
 import com.example.earthquakedisplay.data.Earthquake
 import com.example.earthquakedisplay.databinding.AdapterEarthquakeBinding
 
@@ -25,8 +26,9 @@ class MainAdapter: RecyclerView.Adapter<MainViewHolder>() {
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
         val earthquake = earthquakes[position]
 
+
         if (earthquake.magnitude >= 8.0){
-            holder.binding.txtMagnitude.setBackgroundColor(com.google.android.material.R.color.abc_secondary_text_material_light)
+            holder.itemView.setBackgroundColor(R.color.purple_500)
             holder.binding.txtMagnitude.text = "Magnitude : "+ earthquake.magnitude.toString()
         }
         else{

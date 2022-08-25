@@ -50,7 +50,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.recyclerview.addOnItemClickListener(object: OnItemClickListener {
             override fun onItemClicked(position: Int, view: View) {
-                adapter.earthquakes.get(position).lat
                 val intent = Intent(this@MainActivity, GoogleMapsActivity::class.java)
                 intent.putExtra("Latitude", adapter.earthquakes.get(position).lat.toString())
                 intent.putExtra("Longitude", adapter.earthquakes.get(position).lng.toString())

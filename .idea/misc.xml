@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Kartik/AndroidStudioProjects/EarthquakeDisplay/app/src/main/res/layout/activity_face_detection.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Kartik/AndroidStudioProjects/EarthquakeDisplay/app/src/main/res/layout/activity_google_maps.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Kartik/AndroidStudioProjects/EarthquakeDisplay/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Kartik/AndroidStudioProjects/EarthquakeDisplay/app/src/main/res/layout/adapter_earthquake.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Kartik/AndroidStudioProjects/SideTakeHomeAssignment/app/src/main/res/layout/activity_google_maps.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Kartik/AndroidStudioProjects/SideTakeHomeAssignment/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Kartik/AndroidStudioProjects/SideTakeHomeAssignment/app/src/main/res/layout/adapter_earthquake.xml" value="0.14130434782608695" />
